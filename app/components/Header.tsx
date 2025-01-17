@@ -1,4 +1,4 @@
-import { NavLink, navLinks } from "../constants/navLinks";
+import { NavLink, navLinks } from "../constants/arrays/navLinks";
 import { LinkComponent as Link } from "./Link";
 
 export const Header = () => {
