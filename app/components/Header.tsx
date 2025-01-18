@@ -14,7 +14,10 @@ export const Header = () => {
         <ul className="flex gap-12">
           {navLinks.map(({ to, label }: NavLink) => (
             <li key={label}>
-              <Link to={to} className={pathname === to ? "active" : ""}>
+              <Link
+                to={to}
+                className={`${pathname === to ? "active" : ""} px-4 py-2`}
+              >
                 {label}
               </Link>
             </li>
