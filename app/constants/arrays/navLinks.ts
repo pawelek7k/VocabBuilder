@@ -5,6 +5,6 @@ export type NavLink = {
 
 export const navLinks: NavLink[] = [
     { to: "/dictionary", label: "Dictionary" },
-    { to: "/dictionary", label: "Recommend" },
-    { to: "/dictionary", label: "Training" },
+    { to: "/recommend", label: "Recommend" },
+    { to: "/training", label: "Training" },
 ];
