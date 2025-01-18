@@ -8,17 +8,19 @@ export const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="p-4 w-full flex justify-between">
+    <header className="w-full flex justify-evenly border-b border-zinc-100">
       <Logo />
-      <ul className="flex gap-12">
-        {navLinks.map(({ to, label }: NavLink) => (
-          <li key={label}>
-            <Link to={to} className={pathname === to ? "active" : ""}>
-              {label}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <div className="p-4 px-12 border-l-4 rounded-s-full">
+        <ul className="flex gap-12">
+          {navLinks.map(({ to, label }: NavLink) => (
+            <li key={label}>
+              <Link to={to} className={pathname === to ? "active" : ""}>
+                {label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </header>
   );
 };
