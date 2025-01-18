@@ -29,6 +29,6 @@ body {
 
 @layer components {
   .active {
-    @apply px-4 py-2 border border-pink-300 rounded-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-b from-[#f8f8f8] to-[#1c3f9ec0];
+    @apply px-4 py-2 border border-pink-300 rounded-2xl font-semibold;
   }
 }
