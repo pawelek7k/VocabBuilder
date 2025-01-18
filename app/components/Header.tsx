@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <header className="p-4 w-full flex justify-between">
       <Logo />
-      <ul>
+      <ul className="flex gap-12">
         {navLinks.map(({ to, label }: NavLink) => (
           <li key={label}>
             <Link to={to}>{label}</Link>
