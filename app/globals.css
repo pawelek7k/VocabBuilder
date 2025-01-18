@@ -11,6 +11,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-color: rgb(15, 16, 19);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,7 +27,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.active {
-  background-color: pink;
-  padding: 0.5rem 1rem;
+@layer components {
+  .active {
+    @apply px-4 py-2 border border-pink-300 rounded-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-b from-[#f8f8f8] to-[#1c3f9ec0];
+  }
 }
