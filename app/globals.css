@@ -27,5 +27,6 @@ body {
 }
 
 .active {
-  color: pink;
+  background-color: pink;
+  padding: 0.5rem 1rem;
 }
