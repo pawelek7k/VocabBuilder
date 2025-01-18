@@ -6,13 +6,13 @@ export const Header = () => {
   return (
     <header className="p-4 w-full flex justify-between">
       <Logo />
-      <div>
+      <ul>
         {navLinks.map(({ to, label }: NavLink) => (
-          <Link key={label} to={to}>
-            {label}
-          </Link>
+          <li key={label}>
+            <Link to={to}>{label}</Link>
+          </li>
         ))}
-      </div>
+      </ul>
     </header>
   );
 };
