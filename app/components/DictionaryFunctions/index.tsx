@@ -1,3 +1,4 @@
+import { AddWord } from "./AddWord";
 import { RadioChoice } from "./RadioChoice";
 import { SearchInput } from "./SearchInput";
 import { WordStudyLength } from "./WordStudyLength";
@@ -9,8 +10,9 @@ export const FuctionsContainer = () => {
         <SearchInput />
         <RadioChoice />
       </div>
-      <div>
+      <div className="flex items-center gap-6">
         <WordStudyLength />
+        <AddWord />
       </div>
     </div>
   );
