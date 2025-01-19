@@ -1,6 +1,7 @@
 import { AddWord } from "./AddWord";
 import { RadioChoice } from "./RadioChoice";
 import { SearchInput } from "./SearchInput";
+import { TrainLink } from "./TrainLink";
 import { WordStudyLength } from "./WordStudyLength";
 
 export const FuctionsContainer = () => {
@@ -13,6 +14,7 @@ export const FuctionsContainer = () => {
       <div className="flex items-center gap-6">
         <WordStudyLength />
         <AddWord />
+        <TrainLink />
       </div>
     </div>
   );
