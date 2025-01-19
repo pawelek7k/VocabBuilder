@@ -1,9 +1,13 @@
+import { RadioChoice } from "./RadioChoice";
 import { SearchInput } from "./SearchInput";
 
 export const FuctionsContainer = () => {
   return (
     <div>
-      <SearchInput />
+      <div>
+        <SearchInput />
+        <RadioChoice />
+      </div>
     </div>
   );
 };
