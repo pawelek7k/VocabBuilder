@@ -1,9 +1,9 @@
-import { FuctionsContainer } from "@/app/components/DictionaryFunctions";
+import { FunctionsContainer } from "@/app/components/DictionaryFunctions";
 
 export default function DictionaryPage() {
   return (
     <section>
-      <FuctionsContainer />
+      <FunctionsContainer />
     </section>
   );
 }
