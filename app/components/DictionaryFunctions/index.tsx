@@ -1,3 +1,9 @@
+import { SearchInput } from "./SearchInput";
+
 export const FuctionsContainer = () => {
-  return <div></div>;
+  return (
+    <div>
+      <SearchInput />
+    </div>
+  );
 };
