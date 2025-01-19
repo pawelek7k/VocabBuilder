@@ -1,3 +1,9 @@
+import { Overlay } from "../Overlay";
+
 export const AddWordModal = () => {
-  return <div></div>;
+  return (
+    <Overlay>
+      <div></div>
+    </Overlay>
+  );
 };
