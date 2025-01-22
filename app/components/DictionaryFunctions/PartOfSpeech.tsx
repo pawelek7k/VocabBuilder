@@ -19,15 +19,17 @@ export const PartOfSpeechSelector = () => {
   return (
     <Box
       sx={{
-        p: 4,
-        maxWidth: 400,
-        mx: "auto",
         bgcolor: "transparent",
         borderRadius: 2,
         boxShadow: 3,
       }}
     >
-      <FormControl fullWidth>
+      <FormControl
+        fullWidth
+        sx={{
+          maxWidth: 200,
+        }}
+      >
         <InputLabel id="part-of-speech-label" sx={{ color: "white" }}>
           Part of Speech
         </InputLabel>
