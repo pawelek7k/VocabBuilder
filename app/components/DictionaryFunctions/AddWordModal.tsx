@@ -1,4 +1,5 @@
 import { Overlay } from "../Overlay";
+import { PartOfSpeechSelector } from "./PartOfSpeech";
 import { RadioChoice } from "./RadioChoice";
 
 export const AddWordModal = () => {
@@ -11,6 +12,7 @@ export const AddWordModal = () => {
           the language base and expanding the vocabulary.
         </p>
         <RadioChoice />
+        <PartOfSpeechSelector />
       </div>
     </Overlay>
   );
