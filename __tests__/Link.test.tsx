@@ -6,7 +6,6 @@ describe("LinkComponent", () => {
     render(<LinkComponent to="/test">test link</LinkComponent>);
 
     const linkElement = screen.getByText("test link");
-    expect(linkElement).toBeInTheDocument();
     expect(linkElement).toHaveAttribute("href", "/test");
   });
 });
