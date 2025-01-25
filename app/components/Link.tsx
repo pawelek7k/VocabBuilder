@@ -1,13 +1,6 @@
+import { LinkType } from "@/types/LinkType";
 import classNames from "classnames";
 import Link from "next/link";
-import { ReactNode } from "react";
-
-type LinkType = {
-  to: string;
-  children?: ReactNode;
-  namespace?: string;
-  className?: string;
-} & React.AnchorHTMLAttributes<HTMLAnchorElement>;
 
 export const LinkComponent = ({
   to,
